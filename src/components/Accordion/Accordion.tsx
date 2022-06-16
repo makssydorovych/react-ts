@@ -1,8 +1,11 @@
 import React from "react";
+import { PageTitle } from "../../App";
+
 
  export default function Accordion() {
     return (
         <>
+            <PageTitle title={"Accordion"} />
             <AccordionTitle/>
             <AccordionBody/>
 
